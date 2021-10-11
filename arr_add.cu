@@ -35,6 +35,8 @@ int main(int argc, char const *argv[])
         b[i] += a[i];
     }
     gettimeofday(&t2, 0);
+    getint();
+    getTime();
     free(a);
     free(b);
 
