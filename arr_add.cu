@@ -30,6 +30,7 @@ int main(int argc, char const *argv[])
 
     
     gettimeofday(&t1, 0);
+    getinit();
     for (unsigned long long int i = 0; i < n; i++)
     {
         b[i] += a[i];
